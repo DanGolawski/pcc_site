@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+}
+
+#text-container {
+    font-size: 15vh;
+    white-space: nowrap;
+}
+
+.background-text-line {
+    white-space: nowrap;
+}
