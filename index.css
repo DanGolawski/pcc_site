@@ -1,13 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     overflow: hidden;
+    
+}
+
+#background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./sexy-blue-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 
 #text-container {
-    font-size: 15vh;
-    white-space: nowrap;
+    font-size: 20vh;
 }
 
 .background-text-line {
     white-space: nowrap;
+    line-height: 0.85;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    /* opacity: 0.05; */
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.rotated {
+    transform: rotate(-90deg);
+    font-size: 40vh !important;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
 }
